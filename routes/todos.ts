@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import { Todo } from '../models/todos';
+import { Todo } from '../models/todo';
 
 type RequestBody = { text: string };
 type RequestParams = { todoId: string };
